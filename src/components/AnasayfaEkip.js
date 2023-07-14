@@ -2,7 +2,7 @@ import React from "react";
 
 const Ekip = () => {
   return (
-    <div class=" bg-stone-50 px-7 ">
+    <div class=" bg-stone-50 px-7 pb-12 ">
       <p class="text-red-400 font-medium text-sm pb-5">EKİP</p>
       <div class="grid grid-rows-5 sm:grid-flow-col justify-center pl-24 lg:pl-80 space-y-7 ">
         <div class="flex pt-7">

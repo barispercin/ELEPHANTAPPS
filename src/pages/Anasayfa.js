@@ -6,6 +6,7 @@ import YasamDongusu from "../components/AnasayfaYasamDongusu";
 import UygulamaGelistirmeAsamalari from "../components/AnasayfaUygulamaGelistirmeAsamalari";
 import BakimveDestek from "../components/AnasayfaBakimveDestek";
 import Ekip from "../components/AnasayfaEkip";
+import BuradanBaslayin from "../components/AnasayfaBuradanBaslayin";
 
 const Anasayfa = () => {
   return (
@@ -17,6 +18,7 @@ const Anasayfa = () => {
       <UygulamaGelistirmeAsamalari></UygulamaGelistirmeAsamalari>
       <BakimveDestek></BakimveDestek>
       <Ekip></Ekip>
+      <BuradanBaslayin></BuradanBaslayin>
     </div>
   );
 };
