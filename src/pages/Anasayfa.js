@@ -7,11 +7,12 @@ import UygulamaGelistirmeAsamalari from "../components/AnasayfaUygulamaGelistirm
 import BakimveDestek from "../components/AnasayfaBakimveDestek";
 import Ekip from "../components/AnasayfaEkip";
 import BuradanBaslayin from "../components/AnasayfaBuradanBaslayin";
+import Footer from "../components/Footer";
 
 const Anasayfa = () => {
   return (
-    <div>
-      <Navbar></Navbar>
+    <div class="mb-20">
+      
       <Giris></Giris>
       <Musterilerimiz></Musterilerimiz>
       <YasamDongusu></YasamDongusu>
@@ -19,6 +20,7 @@ const Anasayfa = () => {
       <BakimveDestek></BakimveDestek>
       <Ekip></Ekip>
       <BuradanBaslayin></BuradanBaslayin>
+      <Footer></Footer>
     </div>
   );
 };

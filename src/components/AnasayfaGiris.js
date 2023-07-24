@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Giris = () => {
   return (
     <div>
@@ -14,9 +15,13 @@ const Giris = () => {
             Bir uygulama fikriniz mi var?
             <br /> Gelin birlikte gerçeklestirelim...
           </p>
-          <button className="rounded-full bg-red-500 w-32 h-7 text-white text-sm">
-            Başla
-          </button>
+          <div>
+            <Link to="https://elephantapps.co/meeting/meeting/">
+              <button className="rounded-full bg-red-500 w-32 h-7 text-white text-sm">
+                Başla
+              </button>
+            </Link>
+          </div>
         </div>
         <div class="">
           <img
@@ -41,17 +46,16 @@ const Giris = () => {
           </p>
         </div>
         <div>
-        <div class="">
-          <img
-            className="w-[480px] mb-16 lg:pl-2 "
-            src={
-              "https://elephantapps.co/static/app-idea-5364d762f0f085a420f0428d96142ed9.webp"
-            }
-            alt="elephantapps"
-          />
+          <div class="">
+            <img
+              className="w-[480px] mb-16 lg:pl-2 "
+              src={
+                "https://elephantapps.co/static/app-idea-5364d762f0f085a420f0428d96142ed9.webp"
+              }
+              alt="elephantapps"
+            />
+          </div>
         </div>
-      </div>
-     
       </div>
     </div>
   );
